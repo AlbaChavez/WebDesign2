@@ -63,3 +63,12 @@ ul.nav-links a {
         border-bottom: none;
     }
 } /* END OF MID-SCREEN MEDIA QUERY */
+
+@media (min-width:960px) {
+    header {
+        width:960px;
+        margin: auto;
+        
+    }
+
+} /*END OF LG-SCREEM MEDIA QUERY*/
