@@ -31,12 +31,14 @@ ul.nav-links {
 ul.nav-links {
     list-style:none;
     padding-left:0px;
+    text-align:center;
     
 }
 
 ul.nav-links li {
     padding: 10px;
     border-bottom: 2px solid dodgerblue;
+    
 }
 
 ul.nav-links a {
