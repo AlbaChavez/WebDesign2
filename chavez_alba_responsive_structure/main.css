@@ -1,0 +1,203 @@
+@import url("layout.css");
+@import url("colors.css");
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap');
+
+img {
+    width: 250px;
+
+}
+body {
+    margin: 0px; font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    margin: 0px; font-size: 24px;
+    font-family: 'Source Serif Pro', serif; 
+    color:#3F96D2;
+    text-align:center;
+}
+
+h2 {
+    margin: 5px; font-size: 14px;
+    font-family: 'Source Serif Pro', serif;
+    color:#3F96D2;
+    text-align:center;
+}
+
+h3 {
+    margin: 5px; font-size: 12px;
+    font-family: 'Source Serif Pro', serif;
+    color:rgb(175, 175, 175);
+    text-align:center;
+}
+
+.logo {
+    max-width: 75px;
+    margin:15px;
+}
+
+#toggleAssist,
+ul.nav-links {
+    display:none;
+}
+
+#toggleAssist:checked + ul.nav-links {
+    display: block;
+}
+
+
+.toggle-button {
+    width:40px; 
+    float:right; 
+    margin: 15px;
+}
+
+ul.nav-links {
+    list-style:none;
+    padding-left:0px;
+    text-align:center;
+    
+}
+
+ul.nav-links li {
+    padding: 10px;
+    border-bottom: 2px hidden;
+    
+}
+
+ul.nav-links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#3F96D2;
+}
+
+header li a:hover {
+    background-color:#E9E9E9;
+    padding: 10px;
+
+}
+
+footer {
+   background-color:rgb(135, 177, 204);
+   padding: 50px;
+   text-align: center;
+   color: white; 
+}
+
+/*products page*/
+.featured {
+    width:100%;
+    margin:auto;
+   
+}
+.featured-items {
+    margin-bottom:11px; 
+    width:450px; 
+    margin-right:11px;  
+    float:left;
+}
+.featured {
+    width:250px; 
+    height:250px;
+    margin: 11px;
+    margin-left: 50px;
+    float:left;
+    padding:30px;
+    padding-bottom: 100px;
+}
+
+.featured:last-child {
+    margin-right:0px;
+}
+
+.brightness {
+    background-color: white;
+    display: inline-block;
+
+}
+.brightness img:hover {
+    opacity: .5;
+}
+
+/*gallery*/
+.slideshow {
+    height:500px;
+    margin-bottom:26px;
+    
+}
+
+
+.responsive-menu {
+    width:30px;
+    margin-top:25px; 
+    margin-right:20px;
+}
+
+/*slides*/
+.rslides {
+    position: relative; 
+    list-style: none; 
+    overflow: hidden; 
+    height:500px; 
+    width: 337px; 
+    padding: 0; 
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden; 
+    position: absolute; 
+    display: none; 
+    width: 337px; 
+    left: 0; 
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative; 
+    display: block; 
+    float: left;
+}
+
+.rslides img {
+    display: block; 
+    height: 500px; 
+    float: left; 
+    width: 100%; 
+    border: 0;
+}
+
+
+
+@media (min-width:550px) {
+    .toggle-button {
+        display:none;
+    }
+
+    ul.nav-links {
+        display:block;
+        float:right;
+        margin-top: 35px;
+    }
+
+    ul.nav-links li {
+        display:inline-block;
+        border-bottom: none;
+    }
+
+    .slideshow {
+        width: 337px;
+        margin: auto;
+    }
+} /* END OF MID-SCREEN MEDIA QUERY */
+
+@media (min-width:960px) {
+    header {
+        width:960px;
+        margin: auto;
+        
+    }
+
+} /*END OF LG-SCREEM MEDIA QUERY*/
