@@ -60,6 +60,12 @@ ul.nav-links a {
     text-transform: uppercase;
     color:#008bad;
 }
+footer {
+    background-color:#008bad;
+    padding: 50px;
+    text-align: center;
+    color:white; 
+ }
 
 @media (min-width:550px) {
     .toggle-button {
