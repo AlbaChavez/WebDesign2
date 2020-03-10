@@ -1,22 +1,32 @@
 
 .red-bg {
     background-color: rgb(202, 53, 37);
+    background-image: url(beach1.jpeg); 
+    background-size: 100%;
 }
 
 .green-bg {
     background-color: rgb(24, 177, 90);
+    background-image: url(beach2.jpeg); 
+    background-size: 100%;
 }
 
 .blue-bg {
     background-color: rgb(81, 127, 173);
+    background-image: url(beach3.jpeg); 
+    background-size: 100%;
 }
 
 .yellow-bg {
     background-color: rgb(150, 209, 10);
+    background-image: url(beach4.jpeg); 
+    background-size: 100%;
 }
 
 .purple-bg {
     background-color: rgb(145, 82, 209);
+    background-image: url(beach5.jpeg); 
+    background-size: 100%;
 }
 
 
