@@ -5,3 +5,14 @@ body {
     margin: 0px;
 }
 
+p {
+    font-size: 14px;
+    text-align: center;
+}
+
+h1 {
+    font-size-adjust: unset; 
+    text-align: center;
+    color: #9ce22b; 
+
+}
