@@ -17,11 +17,11 @@ h1 {
 
 }
 
+
 img {
-  max-width: 100%;
-  height: auto;
-  min-height: 230px;
-  align-content: center;
+    max-width: 100%;
+    height: auto;
+    align-content: center;
 }
 
 figure {
@@ -33,5 +33,6 @@ figcaption {
     display: block; 
     width: 300px;
     text-align: center;
+    color: #507514;
     
   }
