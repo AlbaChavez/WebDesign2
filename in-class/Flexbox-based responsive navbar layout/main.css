@@ -16,3 +16,22 @@ h1 {
     color: #9ce22b; 
 
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  min-height: 230px;
+  align-content: center;
+}
+
+figure {
+    min-width: 300px;
+    padding: 5px;
+  }
+
+figcaption {
+    display: block; 
+    width: 300px;
+    text-align: center;
+    
+  }
