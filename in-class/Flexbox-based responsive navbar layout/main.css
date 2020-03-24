@@ -24,15 +24,17 @@ img {
     align-content: center;
 }
 
+
 figure {
     min-width: 300px;
     padding: 5px;
+    margin: 10px;
   }
 
 figcaption {
-    display: block; 
+    display: block;
     width: 300px;
     text-align: center;
     color: #507514;
     
-  }
+  } 
