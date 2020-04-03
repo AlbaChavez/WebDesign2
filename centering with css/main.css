@@ -1,0 +1,46 @@
+@import url('colors.css');
+
+header,
+main {
+    width: 100%;
+}
+
+header {
+    height: 10vh;
+}
+
+main {
+    height: 90vh;
+}
+
+main.block-inline-centering {
+    text-align: center;
+}
+
+main.flex-center {
+    display: flex;
+    flex-direction: column;
+}
+
+header h3 {
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+
+
+}
+@media (min-width: 600px) {
+    main {
+        width: 580px;
+        margin: auto; 
+    }
+
+    main.flex-center {
+        flex-direction: row;
+        justify-content: ;
+    }
+}
+
+@media (min-width: 900px) {
+
+}
