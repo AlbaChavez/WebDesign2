@@ -45,3 +45,7 @@
   #myMenu li a:hover {
     background-color:#e81c73;
   }
+
+  @media(min-width: 560px){ 
+    
+  }
