@@ -11,7 +11,7 @@
   <header>
     <body>
     <nav>
-        <img class="logo" src="images/logo2.png" alt="the logo"> <h1>Helados La Michoacana</h1> </div>
+        <img class="logo" src="images/logo2.png" alt="the logo">
 
 
         <label for="toggleAssist"> 
@@ -32,6 +32,27 @@
   <main>
       <h2>Products</h2>
 
+      <h2>Search Menu</h2>
+<p>Start to type for a specific category inside the search bar to "filter" the search options.</p>
+
+<div class="row">
+  <div class="left" style="background-color: pink">
+    <h2>Menu</h2>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+    <ul id="myMenu">
+      <li><a href="#">Ice Cream</a></li>
+      <li><a href="#">Popsicles</a></li>
+      <li><a href="#">Shakes</a></li>
+      <li><a href="#">Fruit Snacks</a></li>
+      <li><a href="#">Chips</a></li>
+      <li><a href="#">Crepes</a></li>
+      <li><a href="#">Snacks</a></li>
+      <li><a href="#">Drinks</a></li> 
+    </ul>
+  </div>
+  
+  <div class="right" style="background-color:white;">
+    <h2>Page Content</h2>
     <div class="grid-container">
         <div class="box a3 red-bg">A</div>
         <div class="box b3 orange-bg">B</div>
@@ -40,6 +61,32 @@
         <div class="box e3 blue-bg">E</div>
         <div class="box f3 purple-bg">F</div>
       </div>
+      <p>Start to type for a specific category inside the search bar to "filter" the search options.</p>
+    <p>Some text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
+    <p>Some other text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
+    <p>Some text..</p>
+  </div>
+
+  <script>
+    function myFunction() {
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("mySearch");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myMenu");
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
+      }
+    }
+    </script>
+</div>
+
+    
 
 
   </main>
