@@ -4,27 +4,34 @@ body {
 }
 
 h1 /*reg heading*/ {
-    display: inline-block;
-    font-size:20px;
+    font-size:24px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    color: #e81c73;
+    text-align: center;
+    color: #ff8abd;
     
 }
 
 h2 {
-    font-size:14px;
+    font-size:18px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     color: #ff8abd;
 }
 
 h3 /*home heading*/ {
-    font-size: 30px;
+    font-size: 36px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    color: #e81c73;
+    color: #ff8abd;
 
+}
+
+i {
+    color: #e81c73;
+}
+
+i1 {
+    color: #ff8abd;
 }
 
 h4 {
@@ -38,8 +45,9 @@ h4 {
 p {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    text-align: left;
+    font-size: 18px;
+    text-align:  center;
+    color: #ff8abd;
 
 
 }
