@@ -1,25 +1,19 @@
 /* Create a column layout with Flexbox */
+
+
 .row {
     display: flex;
+    margin-left: 50px;
   }
   
-  /* Left column (menu) */
   .left {
     flex: 10%;
-    padding: 5px 0;
+    padding: 0px 0;
   }
   
   .left h2 {
     padding-left: 8px;
   }
-  
-  /* Right column (page content) */
-  .right {
-    flex: 65%;
-    padding: 15px;
-    
-  }
-  
   /* Style the search box */
   #mySearch {
     width: 100%;
@@ -27,6 +21,15 @@
     padding: 11px;
     border: 1px solid #e81c73;
   }
+  
+  #mySearch2 {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #e81c73;
+  
+    }
+  
   
   /* Style the navigation menu inside the left column */
   #myMenu {
@@ -45,7 +48,30 @@
   #myMenu li a:hover {
     background-color:#e81c73;
   }
-
-  @media(min-width: 560px){ 
+  
+  /* Right column (page content) */
+  .right {
+    flex: 65%;
+    padding-right: 50px;
     
+  }
+
+  
+  @media(max-width: 560px){ 
+    .left {
+      display: none;
+      flex: 10%;
+      padding: 0px 0;
+    }
+  }
+  
+  @media(min-width: 561px) {
+    #mySearch2 {
+    display: none;
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #e81c73;
+  
+    }
   }
