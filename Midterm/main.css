@@ -256,7 +256,9 @@ main {
         grid-column: 1 / 8;
         grid-row: 3;
     }
+    
 }
+
 
 @media(min-width: 768px){
     
