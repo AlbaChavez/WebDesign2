@@ -68,6 +68,11 @@ main {
 
 
 /*about*/
+
+.contact {
+    column-count: 2;
+    column-gap: 20px;
+}
 .e2 {
     padding-top: 20px;
     padding-bottom: 30px;
@@ -97,6 +102,13 @@ main {
     padding-bottom: 20px;
     grid-column: 1 / 8;
     grid-row: 5;
+}
+
+.g2 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    grid-column: 1 / 8;
+    grid-row: 6;
 }
 
 .f2 {
@@ -255,6 +267,13 @@ main {
         padding-bottom: 30px;
         grid-column: 1 / 8;
         grid-row: 3;
+    }
+
+    .g2 {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        grid-column: 1 / 8;
+        grid-row: 4;
     }
     
 }
