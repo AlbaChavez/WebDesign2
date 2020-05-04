@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro To JavaScript</title>
+    <style>
+        #header1 {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    
+
+ <h1 id="header1">intro to js</h1>
+
+ <section>
+     <div class="pane" id="tealPane"></div>
+     <button id="changeToRed">Change to Red</button>
+ </section>
+
+  <script>
+      //alert("hello, world");
+      var response = prompt("What's your name?", "Pickle Rick");
+      var myHeader = document.getElementById("header1");
+
+      var tealPane = document.getElementById("tealPane");
+      var redButton = document.getElementById("changeToRed");
+
+      myHeader.style.color = "red";
+      myHeader.style.backgroundColor = "plum";
+      myHeader.style.fontSize = "56px";
+
+      myHeader.innerText = "Hello," + response;
+      console.log("hello" + 5 + "pickles"); /*means we're accessing big part and a small part inside of it*/
+
+      redButton.addEventListener("click", function(){
+          tealPane.style.backgroundColor = "salmon";
+          var notification = document.createElement("h5")
+          notification.innerText = "This is red now!";
+          tealPane.appendChild(notification);
+
+      });
+
+
+
+  </script>
+
+<section>
+    <h2 id="id1">Want this to turn blue?</h2>
+
+    <button type="button" 
+    onclick="document.getElementById('id1').style.color = 'blue'">
+    Click Me!</button>
+</section>
+
+<section>
+    <h3 id="id2">Or green cuz blue sucks?</h1>
+
+    <button type="button" 
+    onclick="document.getElementById('id2').style.color = 'green'">
+    Click Me!</button>
+</section>
+
+
+
+</body>
+</html>
