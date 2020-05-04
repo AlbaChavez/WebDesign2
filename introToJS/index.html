@@ -56,12 +56,29 @@
 </section>
 
 <section>
-    <h3 id="id2">Or green cuz blue sucks?</h1>
+    <h3 id="id2">Or green cuz blue sucks?</h3>
 
     <button type="button" 
     onclick="document.getElementById('id2').style.color = 'green'">
     Click Me!</button>
 </section>
+
+<h2>Want to see a <i>cat</i> wearing a <b>bowtie!</b>?</h2>
+<script type="text/javascript">
+
+    function picture(){ 
+    var pic = "cat.jpg"
+    document.getElementById('cat').src = pic.replace('10x10', '225x225');
+    document.getElementById('cat').style.display='block';
+
+    }
+
+
+</script>
+
+<img id="cat" src="cat.jpg" style="display:none;" width="350" />
+
+    <button onclick="picture()">Click for a Surprise!</button>
 
 
 
