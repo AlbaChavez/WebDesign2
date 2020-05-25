@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <button>click me to center header</button>
+            <div style="height:auto;width:auto;position:absolute;"><h1>Behold, the Kings and Queens that Dominate the Earth</h1></div>
+            <br>
+
+      
+      </div>
+
+      <h2>click below to view or hide images</h2>    
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+
+
+      <!-- Photo Grid -->
+      <div class="row"> 
+        <div class="column">
+          <p><img src="cat1.jpg" style="width:100%"></p>
+          <img src="cat2.jpg" style="width:100%">
+          <p><img src="cat3.jpg" style="width:100%"></p>
+          <img src="cat4.jpg" style="width:100%">
+          <p><img src="cat5.jpg" style="width:100%"></p>
+          <img src="cat6.jpg" style="width:100%">
+          <img src="cat7.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="cat8.jpg" style="width:100%">
+          <img src="cat9.jpg" style="width:100%">
+          <p><img src="cat10.jpg" style="width:100%"></p>
+          <img src="cat11.jpg" style="width:100%">
+          <img src="cat12.jpg" style="width:100%">
+          <p><img src="cat13.jpg" style="width:100%"></p>
+        </div>  
+        <div class="column">
+          <p><img src="cat14.jpg" style="width:100%"></p>
+          <img src="cat15.jpg" style="width:100%">
+          <p><img src="cat16.jpg" style="width:100%"></p>
+          <img src="cat17.jpg" style="width:100%">
+          <img src="cat18.jpg" style="width:100%">
+          <p><img src="cat19.jpg" style="width:100%"></p>
+          <img src="cat20.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="cat21.jpg" style="width:100%">
+          <img src="cat22.jpg" style="width:100%">
+          <p><img src="cat23.jpg" style="width:100%"></p>
+          <img src="cat24.jpg" style="width:100%">
+          <img src="cat25.jpg" style="width:100%">
+          <p><img src="cat26.jpg" style="width:100%"></p>
+        </div>
+      </div>
+
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script> 
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("div").animate({left: '250px'});
+          });
+        });
+        </script> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+
+</script>
+
+</body>
+</html>
