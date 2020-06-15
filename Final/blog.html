@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet">
+    <title>Cats at the studio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="images/cats_logo(PINK).png" alt="kitten rescue los angeles">
+    
+    
+            <label for="toggleAssist"> 
+                <img src="images/cat.png" alt="cat menu icon" class="toggle-button">
+            </label>
+            <input type="checkbox" id="toggleAssist">
+            
+            <ul class="nav-links" style="list-style: none;padding-left: 0px;">
+                <li><a href="index.html" style="color: white;">home</a></li>
+                <li><a href="about.html"  style="color: white;">about</a></li>
+                <li><a href="donate.html"  style="color: white;">donate</a></li>
+                <li><a href="blog.html"  style="color: white;">blog</a></li>
+            </ul>
+       
+        </nav>
+
+      </header>
+      
+      
+      <main>
+        <div class="header">
+            <h2 style="color: #f12f9d;">CATS in the Studio</h2>
+          </div>
+          
+          <div class="row">
+            <div class="leftcolumn">
+              <div class="card">
+                <h2>Adopt a Furry Friend</h2>
+                <h5>Virtual meetings are live, June 14th, 2020</h5>
+                <div class="fakeimg" style="height:450px;"><img src="images/bcat.jpg" alt="girl with cat" width="630px"></div>
+                <p>Join us on our live meetings with our furry friends this week!</p>
+                <p>Our shelters are still closed but that won't stop our furry friends from finding their forever homes. Join us this week for virtual meet ups
+                and live meetings with staff and our rescues to hear about their stories!
+                </p>
+              </div>
+              <div class="card">
+                <h2>Shelter Update</h2>
+                <h5>Corona Virus update on our shelters, May 27th, 2020</h5>
+                <div class="fakeimg" style="height:530px;"><img src="images/bcat2.jpg" alt="kittens" width="630px"></div>
+                <p>Corona Virus updates and how our shelters will continue to function</p>
+                <p>As a community our wishes go out to victums of the virus. Our shelters will remain closed upon further notice for the safety of not just our staff but our furry friends. 
+                Limited staff will still be here taking care of our babies. 
+                </p>
+
+              </div>
+
+              <br>
+            </div>
+            <div class="rightcolumn">
+              <div class="card">
+                <h2>About Me</h2>
+                <div class="fakeimg" style="height:250px;"><img src="images/founder.jpg" alt="founder of cats" width="150px"></div>
+                <p>Hello there, I am Sarah, the ofunder of CATs inc. as well as the one running our very own blog! </p>
+              </div>
+              <div class="card">
+                <h3>Popular Post</h3>
+                <div class="fakeimg"><img src="images/bcat3.jpg" alt="kittens" width="150px"><p style="font-size:14px">Kitten picnic Event!</p></div><br>
+                <div class="fakeimg"><img src="images/bcat4.jpg" alt="kittens" width="150px"><p style="font-size:14px">At home care</p></div><br>
+                <div class="fakeimg"><img src="images/bcat5.jpg" alt="kittens" width="150px"><p style="font-size:14px">Overpopulation of strays</p></div>
+              </div>
+              <div class="card">
+                <h3>Follow Me</h3>
+                <p>For more updates!</p>
+              </div>
+            </div>
+          </div>
+        </main>
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            /* Add a gray background color with some padding */
+            body {
+              font-family: Arial;
+              padding: 20px;
+              background: #ffe1f2;
+            }
+            
+            /* Header/Blog Title */
+            .header {
+              padding: 30px;
+              font-size: 40px;
+              text-align: center;
+              background: white;
+            }
+            
+            /* Create two unequal columns that floats next to each other */
+            /* Left column */
+            .leftcolumn {   
+              float: left;
+              width: 75%;
+            }
+            
+            /* Right column */
+            .rightcolumn {
+              float: left;
+              width: 25%;
+              padding-left: 20px;
+            }
+            
+            /* Fake image */
+            .fakeimg {
+              background-color: rgb(255, 255, 255);
+              width: 100%;
+              padding: 20px;
+            }
+            
+            /* Add a card effect for articles */
+            .card {
+               background-color: white;
+               padding: 20px;
+               margin-top: 20px;
+            }
+            
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            /* Footer */
+            .footer {
+              padding: 20px;
+              text-align: center;
+              background: #ddd;
+              margin-top: 20px;
+            }
+            
+            /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 800px) {
+              .leftcolumn, .rightcolumn {   
+                width: 100%;
+                padding: 0;
+              }
+            }
+            </style>
+            
+      <footer>
+        <a href='blog.html'><button style="background-color: #929292; color: white; text-align: center;font-size: 12px;padding: 10px 20px">contact</button></a> |  
+        <a href='about.html'><button style="background-color: #929292; color: white; text-align: center;font-size: 12px;padding: 10px 20px">About</button></a>
+      </footer>
+ 
+</body>
+</html>

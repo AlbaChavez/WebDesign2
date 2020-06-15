@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet">
+    <title>Cats at the studio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="images/cats_logo(PINK).png" alt="kitten rescue los angeles">
+    
+    
+            <label for="toggleAssist"> 
+                <img src="images/cat.png" alt="cat menu icon" class="toggle-button">
+            </label>
+            <input type="checkbox" id="toggleAssist">
+            
+            <ul class="nav-links" style="list-style: none;padding-left: 0px;">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="donate.html">donate</a></li>
+                <li><a href="blog.html">blog</a></li>
+            </ul>
+       
+        </nav>
+
+      </header>
+      
+      
+      <main>
+
+       
+        
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          
+          <img src="images/cat1.jpg" style="width:100%">
+          <div class="centered"><h1>Adopt a cat</h1>
+            <p style="background-color: white; margin: 10px;"> Virtual meetings are up now!</p></div>
+        </div>
+        
+        
+        <div class="mySlides fade">
+          
+          <img src="images/cat3.jpeg" style="width:100%">
+          <div class="centered"><h1>Adopt a cat</h1>
+            <p style="background-color: white; margin: 10px;">Virtual meetings are up now!</p></div>
+        </div>
+        
+
+        <div class="mySlides fade">
+          
+            <img src="images/cat5.jpg" style="width:100%">
+            <div class="centered"><h1>Find a Shelter Near you</h1>
+              <p style="background-color: white; margin: 10px;">Kittens are rescued each and everyday!</p></div>
+          </div>
+
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+
+
+
+        <h1 style="color:#ff0398; text-align: center; margin-top: 20px; font-size: 40px">Welcome to CATS inc.</h1>
+
+        <h2>Ultimately, what we do is care</h2>
+
+        <p> Cats at the Studios, Inc. (“CATS Inc.”) is a nonprofit rescue organization comprised entirely of volunteers. 
+            We are dedicated to nurturing, neutering and spaying, and finding homes for abandoned cats and kittens 
+            in Los Angeles, California.</p>
+        
+            <div class="container2">
+            <div class="center2">    
+            <button class="button">Adopt Today!
+                <br>
+
+            <button class="button">Donate!
+            </button>
+            </button>
+            </div>
+            </div>
+
+
+              <h2>What We Do</h2></div>  
+
+                <img style="padding:0 15px; float:left;" src="images/cat4.jpg" alt="calico cat" width="400px">
+                <p style="font-size: 16px;">Cats at the Studios, Inc. is a nonprofit rescue organization comprised entirely of volunteers.
+               We are dedicated to nurturing, neutering and spaying, and finding forever homes for abandoned cats and kittens. 
+               The shelters are overflowing with unwanted pets that are euthanized, and many of our cats are rescued on their 
+               last days at the shelter. Sometimes people will find stray or injured cats and contact us to help. Every 
+               cat that comes into our care is welcomed with open arms. Our kitties are all fostered in private homes 
+               by volunteers. They eat premium quality food, get excellent veterinary care, and of course receive lots of 
+               love! Un-weaned kittens are bottle-fed around the clock, and foster parents encounter many challenges 
+               along with much joy until the babies are past the danger zone.</p>
+ </div>
+ <br>       
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>           
+            
+<img style="padding:0 15px; float:right; margin-top: 50px;" src="images/dcat4.jpg" alt="calico cat" width="550px">
+        
+            <p style="background-color: #ff0398; padding: 60px; text-align: right; font-size: 14px; color: white;">In an effort to curb the rapidly increasing number of newborns left to the streets, 
+              all of our cats are neutered and spayed before being placed in forever homes. We dedicate a lot of time and 
+              often times our own money while our cats await adoption. Because of our committed team of animal-loving volunteers, 
+              Cats at the Studios is able to apply all of its limited financial resources directly towards the care of 
+              rescued kittens and cats. Nevertheless, because of the ongoing expense of vaccinations, neutering and spaying, 
+              and additional medical care, we are in need of donations at all times. There are many ways you can help us. 
+              One of the fastest ways to help is to make a tax-deductible donation online securely with PayPal. 
+              Also, click How to Help for other ways you can contribute.</p>
+            </div>
+
+
+        
+
+
+
+        </main>
+      
+        
+        <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 3000); // Change image every 3 seconds
+            }
+            </script>
+            
+      <footer>
+        <a href='blog.html'><button style="background-color: #929292; color: white; text-align: center;font-size: 12px;padding: 10px 20px">contact</button></a> |  
+        <a href='about.html'><button style="background-color: #929292; color: white; text-align: center;font-size: 12px;padding: 10px 20px">About</button></a>
+      </footer>
+ 
+</body>
+</html>
