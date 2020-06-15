@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <title>Cats at the studio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="images/cats_logo(PINK).png" alt="kitten rescue los angeles">
+    
+    
+            <label for="toggleAssist"> 
+                <img src="images/cat.png" alt="cat menu icon" class="toggle-button">
+            </label>
+            <input type="checkbox" id="toggleAssist">
+            
+            <ul class="nav-links" style="list-style: none;padding-left: 0px;">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="donate.html">donate</a></li>
+                <li><a href="blog.html">blog</a></li>
+            </ul>
+       
+        </nav>
+
+      </header>
+      <main>
+        
+
+
+        <div class="row">
+            <div class="column" style="background-color:white;">
+              <h1 style="color:#ff0398; text-align: center; margin-top: 20px; font-size: 40px">Our History</h1>
+              <p style="text-align: left; font-size: 16px;"> In 1931, legend has it that movie magnate Jack Warner found himself with a temperamental star on his hands. 
+                During the filming of Public Enemy Number One, James Cagney found his favorite wool cap destroyed by 
+                “dirty rats” that had inhabited his dressing room. Cagney stormed Warner’s office and fumed, 
+                “Everyone in the world knows the best exterminator of rats is the cat! You ain’t seeing me back here 
+                ‘till I hear some meowing!” The same day, Warner paid a visit to the local animal shelter and returned to 
+                the studio—with a limousine full of cats. He placed a tin can in his office he called the “kitty kitty” to 
+                collect donations for the new studio “employees.”</p>
+
+                <script>
+                    function toggleImage() {
+                       var img1 = "file:///Users/ceciliachavez/Documents/GitHub/WebDesign2/Final/images/acat.jpg";
+                       var img2 = "file:///Users/ceciliachavez/Documents/GitHub/WebDesign2/Final/images/acat2.jpg";
+                       var img3 = "file:///Users/ceciliachavez/Documents/GitHub/WebDesign2/Final/images/acat3.jpg";
+                       var img4 = "file:///Users/ceciliachavez/Documents/GitHub/WebDesign2/Final/images/cat4.jpg";
+                       
+                       var imgElement = document.getElementById('toggleImage');
+                    
+                       imgElement.src = (imgElement.src === img1)? img2 : img1;
+                
+                    }
+                    </script>
+                    <img src="images/acat4.jpg" id="toggleImage" onclick="toggleImage();" style="width: 640px;"/>
+                    <text style="color:#faa4d6; font-size: 12px;">click to change image</text>
+                    
+                    
+
+                <p style="text-align: left; font-size: 16px;">Today most of Tinseltown’s original stars have made their farewell performances, but the descendants of 
+                    Warner’s studio cats still roam the sets. In 1984, a group of studio employees on the Warner Brothers backlot 
+                    decided something had to be done for the growing number of homeless cats in their workplace. Cats at the Studios (CATS Inc.) 
+                    was born: a nonprofit organization whose caregivers have picked up where Warner left off. 
+                    For the past thirty years, CATS Inc. has ensured that all cats living in the studio backlots are 
+                    spayed and neutered, vaccinated, provided with any needed medical care, and daily provided fresh food and water. 
+                    All of the tame cats found on the backlot have been adopted into new homes.</p>
+                
+                    <style>
+                        .toggler { width: 500px; height: 400px; position: relative; }
+                        #button { padding: .5em 1em; text-decoration: none; }
+                        #effect { width: 370px; height: 370px; padding: 0.4em; position: relative; background: #fff; }
+                        #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+                      </style>
+                      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+                      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+                      <script>
+                      $( function() {
+                        var state = true;
+                        $( "#button" ).on( "click", function() {
+                          if ( state ) {
+                            $( "#effect" ).animate({
+                              backgroundColor: "#ff0398",
+                              color: "#fff",
+                              width: 650
+                            }, 1000 );
+                          } else {
+                            $( "#effect" ).animate({
+                              backgroundColor: "#fff",
+                              color: "#fff",
+                              width: 240
+                            }, 1000 );
+                          }
+                          state = !state;
+                        });
+                      } );
+                      </script>
+
+                    <div class="toggler">
+                        <div id="effect" class="ui-widget-content ui-corner-all">
+                          <h3 class="ui-widget-header ui-corner-all">More Information</h3>  
+
+                    After thirty years of caring for the cats of the studio system, CATS Inc. has grown far beyond its original group 
+                    of founders—and expanded its early mandate. Because of our success with the cats of the studio lots, CATS Inc. 
+                    is now able to dedicate our resources to all the cats and kittens of Los Angeles, offering rescue, care, 
+                    and adoption to cats and kittens from all corners of the city, in all situations and places. We rely solely on our 
+                    adoption fees and donations from the public to continue the hard work of rescuing the cats of Los Angeles that need help.
+                </div>
+            </div>
+             
+            <button id="button" class="ui-state-default ui-corner-all">Click to Extend!</button>
+             
+             
+
+
+            </div>
+            <div class="column2" style="background-color:rgb(230, 230, 230);">
+              <h2 style="text-align: left;">Adoption Locations:</h2>
+              <p style="text-align: left; font-size: 12px;">
+                Submit an<h2 style="color:#ff0398; font-size: 16px;"> Adoption Application</h2> 
+            </p>
+            <p style="text-align: left; font-size: 14px;">
+                <b>Petco – Encino</b>
+17919 Ventura Blvd.
+Encino, CA 91316
+Saturday & Sunday 12 pm-4 pm
+<br>
+<b>Petco – Moorpark</b>
+742 Los Angeles Ave
+Moorpark, CA 93021
+Saturday & Sunday 12 pm-4pm
+or by appointment Mon-Fri evenings
+<br>
+<b>Petco – Porter Ranch</b>
+19869 Rinaldi Street
+Porter Ranch, CA 91326
+Saturday 12 pm-4 pm
+<br>
+<b>Petco – Westlake</b>
+3835 E Thousand Oaks Blvd
+Westlake, CA 91362
+Saturday 12 pm-4 pm
+<br>
+<b>Petco – Woodland Hills</b>
+21943 Ventura Blvd
+Woodland Hills, CA 91364
+Saturday & Sunday 12 pm-4 pm
+<br>
+<b>C & C Pet Supply</b>
+3820 Verdugo Ave
+Burbank, CA
+Sunday 10:30 am-2:30 pm
+            </p>
+            <p>
+                <h2 style="color:#ff0398; font-size: 16px;"> Jump to:</h2>
+                <a href="gallery" style="color: #ff0398;">Our Cats</a>
+<br>
+<a href="gallery" style="color: #ff0398;">Adoption Application</a>
+<br>
+<a href="gallery" style="color: #ff0398;">Volunteer Application</a>
+<br>
+<a href="gallery" style="color: #ff0398;">Donate to CATS, Inc.</a>
+<br>
+<h2 style="color:#ff0398; font-size: 16px;"> Contact</h2>
+CATS INC.
+<br>
+P.O. BOX 1843
+<br>
+BURBANK, CA 91507
+<br>
+<a href="CatsAtTheStudios@yahoo.com" style="color: #ff0398;">CatsAtTheStudios@yahoo.com</a>
+            </p>
+
+            </div>
+        
+    
+        
+    
+
+      </main>
+      <footer>
+        <a href='blog.html'><button style="background-color: #929292; color: white; text-align: center;font-size: 12px;padding: 10px 20px">contact</button></a> |  
+        <a href='about.html'><button style="background-color: #929292; color: white; text-align: center;font-size: 12px;padding: 10px 20px">About</button></a>
+      </footer>
+ 
+</body>
+</html>
